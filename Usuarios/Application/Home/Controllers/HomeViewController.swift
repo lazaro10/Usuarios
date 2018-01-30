@@ -1,0 +1,21 @@
+//
+//  HomeViewController.swift
+//  Usuarios
+//
+//  Created by Lázaro Lima dos Santos on 30/01/18.
+//  Copyright © 2018 Lázaro Lima dos Santos. All rights reserved.
+//
+
+import UIKit
+
+class HomeViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        
+    }
+}
