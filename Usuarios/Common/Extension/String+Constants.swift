@@ -8,14 +8,14 @@
 
 extension String {
     
-    struct DataError {
-        static let nonExistentUser = "Usuário inexistente"
-        static let invalidPassword = "Senha invalida"
-        static let incorrectUsername = "Usuario invalido"
-        static let incorrectPassword = "Senha invalida"
-        static let existingUser = "Usário já existe"
+    struct ErrorType {
+        static let userNotFound = "Your username was not found!"
+        static let invalidCharacter = "Fields must be at least 4 characters!"
+        static let passwordsNotMatch = "Passwords don't match!"
+        static let invalidUser = "Your username is invalid or does not exist!"
+        static let invalidPassword = "Invalid password"
+        static let usernameRegistered = "This name has already been used by another user!"
         static let other = "Error"
     }
-    
-    
+
 }

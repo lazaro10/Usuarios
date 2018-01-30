@@ -1,5 +1,5 @@
 //
-//  SessionNavigationViewControllerRouter.swift
+//  SessionRouter.swift
 //  Usuarios
 //
 //  Created by Lázaro Lima dos Santos on 30/01/18.
@@ -9,9 +9,7 @@
 import Foundation
 import UIKit
 
-let temporarySession = true
-
-final class SessionNavigationViewControllerRouter: SessionRouter {
+final class SessionRouter: SessionRouterInput {
     
     private weak var loginViewController: LoginViewController?
     private weak var homeViewController: HomeViewController?

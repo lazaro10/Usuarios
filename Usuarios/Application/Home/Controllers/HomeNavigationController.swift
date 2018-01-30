@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  HomeNavigationController.swift
 //  Usuarios
 //
 //  Created by Lázaro Lima dos Santos on 30/01/18.
@@ -8,16 +8,19 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
-
+class HomeNavigationController: UINavigationController {
+    
     fileprivate var user: User!
     override func viewDidLoad() {
         super.viewDidLoad()
         assertDependencies()
+        (viewControllers.first as! HomeViewController).inject(user)
+        
     }
+
 }
 
-extension HomeViewController: Injectable {
+extension HomeNavigationController: Injectable {
     
     func inject(_ user: User) {
         self.user = user

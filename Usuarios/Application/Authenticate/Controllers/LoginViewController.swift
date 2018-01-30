@@ -10,14 +10,22 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    
+    private lazy var interector = LoginInterectorFactory.make(presenter: LoginPresenterFactory.make(onSuccess: { user in
+        LoginRouterFactory.make(view: self).presentHome(user:user)
+    }, onError: { error in
+        LoginRouterFactory.make(view: self).presentError(error: error)
+    }), dataManager: LoginDataManagerFactory.make())
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+    @IBAction func loginAction(_ sender: Any) {
+        interector.login(username: usernameTextField.text ?? "", password: passwordTextField.text ?? "")
     }
-
+    
 
 }

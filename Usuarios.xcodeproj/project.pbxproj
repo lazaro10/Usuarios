@@ -16,22 +16,45 @@
 		ECB62EB8202032AC009C85FE /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB62EB7202032AC009C85FE /* Home.storyboard */; };
 		ECB62EBA202032BF009C85FE /* Draw.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB62EB9202032BF009C85FE /* Draw.storyboard */; };
 		ECB62EBC202032D0009C85FE /* Users.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB62EBB202032D0009C85FE /* Users.storyboard */; };
-		ECB62EC62020375D009C85FE /* SessionNavigationViewControllerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62EC52020375D009C85FE /* SessionNavigationViewControllerRouter.swift */; };
-		ECB62EC82020379B009C85FE /* SessionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62EC72020379B009C85FE /* SessionRouter.swift */; };
+		ECB62EC62020375D009C85FE /* SessionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62EC52020375D009C85FE /* SessionRouter.swift */; };
+		ECB62EC82020379B009C85FE /* SessionRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62EC72020379B009C85FE /* SessionRouterInput.swift */; };
 		ECB62ECC202038BF009C85FE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62ECB202038BF009C85FE /* LoginViewController.swift */; };
 		ECB62ECE202038CB009C85FE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62ECD202038CB009C85FE /* HomeViewController.swift */; };
 		ECB62ED120203A5B009C85FE /* LoginViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62ED020203A5B009C85FE /* LoginViewControllerFactory.swift */; };
 		ECB62ED420203AB2009C85FE /* HomeViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62ED320203AB2009C85FE /* HomeViewControllerFactory.swift */; };
-		ECB62ED720203BB3009C85FE /* SessionNavigationViewControllerRouterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62ED620203BB3009C85FE /* SessionNavigationViewControllerRouterFactory.swift */; };
+		ECB62ED720203BB3009C85FE /* SessionRouterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62ED620203BB3009C85FE /* SessionRouterFactory.swift */; };
 		ECB62F0020204C8D009C85FE /* UsuariosDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62EFF20204C8D009C85FE /* UsuariosDataManager.swift */; };
 		ECB62F0320204D4B009C85FE /* UsuariosDataManagerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F0220204D4B009C85FE /* UsuariosDataManagerFactory.swift */; };
-		ECB62F0A2020506E009C85FE /* UserDataManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F092020506E009C85FE /* UserDataManagerType.swift */; };
-		ECB62F0C2020508F009C85FE /* UserPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F0B2020508F009C85FE /* UserPersistence.swift */; };
+		ECB62F0A2020506E009C85FE /* LoginDataManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F092020506E009C85FE /* LoginDataManagerType.swift */; };
+		ECB62F0C2020508F009C85FE /* LoginDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F0B2020508F009C85FE /* LoginDataManager.swift */; };
 		ECB62F1B2020671A009C85FE /* UserPersistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F1A2020671A009C85FE /* UserPersistable.swift */; };
 		ECB62F1D2020687B009C85FE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F1C2020687B009C85FE /* User.swift */; };
-		ECB62F2220206900009C85FE /* DataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F2120206900009C85FE /* DataError.swift */; };
+		ECB62F2220206900009C85FE /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F2120206900009C85FE /* ErrorType.swift */; };
 		ECB62F2520206A0C009C85FE /* String+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F2420206A0C009C85FE /* String+Constants.swift */; };
 		ECB62F2720206BF2009C85FE /* ResultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F2620206BF2009C85FE /* ResultData.swift */; };
+		ECB62F2C20208021009C85FE /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F2B20208021009C85FE /* LoginRouter.swift */; };
+		ECB62F2E20208148009C85FE /* LoginRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F2D20208148009C85FE /* LoginRouterInput.swift */; };
+		ECB62F3020208557009C85FE /* LoginRouterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F2F20208557009C85FE /* LoginRouterFactory.swift */; };
+		ECB62F3220208607009C85FE /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F3120208607009C85FE /* LoginPresenter.swift */; };
+		ECB62F34202086AB009C85FE /* LoginPresenterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F33202086AB009C85FE /* LoginPresenterFactory.swift */; };
+		ECB62F3620208775009C85FE /* LoginInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F3520208775009C85FE /* LoginInterector.swift */; };
+		ECB62F3820208918009C85FE /* LoginInterectorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F3720208918009C85FE /* LoginInterectorFactory.swift */; };
+		ECB62F3A20208C31009C85FE /* LoginDataManagerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F3920208C31009C85FE /* LoginDataManagerFactory.swift */; };
+		ECB62F3D202094C6009C85FE /* AlertError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F3C202094C6009C85FE /* AlertError.swift */; };
+		ECB62F3F202097A2009C85FE /* RegisterDataManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F3E202097A2009C85FE /* RegisterDataManagerType.swift */; };
+		ECB62F41202097CB009C85FE /* RegisterDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F40202097CB009C85FE /* RegisterDataManager.swift */; };
+		ECB62F4320209980009C85FE /* RegisterDataManagerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F4220209980009C85FE /* RegisterDataManagerFactory.swift */; };
+		ECB62F4520209A3D009C85FE /* RegisterRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F4420209A3D009C85FE /* RegisterRouterInput.swift */; };
+		ECB62F4720209A4A009C85FE /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F4620209A4A009C85FE /* RegisterRouter.swift */; };
+		ECB62F4920209BDB009C85FE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F4820209BDB009C85FE /* RegisterViewController.swift */; };
+		ECB62F4B20209CAD009C85FE /* RegisterInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F4A20209CAD009C85FE /* RegisterInterector.swift */; };
+		ECB62F4D20209CDD009C85FE /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F4C20209CDD009C85FE /* RegisterPresenter.swift */; };
+		ECB62F5120209D1C009C85FE /* RegisterPresenterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F5020209D1C009C85FE /* RegisterPresenterFactory.swift */; };
+		ECB62F5320209EA4009C85FE /* RegisterInterectorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F5220209EA4009C85FE /* RegisterInterectorFactory.swift */; };
+		ECB62F5520209EDD009C85FE /* RegisterRouterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F5420209EDD009C85FE /* RegisterRouterFactory.swift */; };
+		ECB62F582020A502009C85FE /* ValidateString.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F572020A502009C85FE /* ValidateString.swift */; };
+		ECB62F5A2020AED5009C85FE /* HomeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F592020AED5009C85FE /* HomeNavigationController.swift */; };
+		ECB62F5D2020B07D009C85FE /* Injectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F5C2020B07D009C85FE /* Injectable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,22 +81,45 @@
 		ECB62EB7202032AC009C85FE /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		ECB62EB9202032BF009C85FE /* Draw.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Draw.storyboard; sourceTree = "<group>"; };
 		ECB62EBB202032D0009C85FE /* Users.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Users.storyboard; sourceTree = "<group>"; };
-		ECB62EC52020375D009C85FE /* SessionNavigationViewControllerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionNavigationViewControllerRouter.swift; sourceTree = "<group>"; };
-		ECB62EC72020379B009C85FE /* SessionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRouter.swift; sourceTree = "<group>"; };
+		ECB62EC52020375D009C85FE /* SessionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRouter.swift; sourceTree = "<group>"; };
+		ECB62EC72020379B009C85FE /* SessionRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRouterInput.swift; sourceTree = "<group>"; };
 		ECB62ECB202038BF009C85FE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ECB62ECD202038CB009C85FE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		ECB62ED020203A5B009C85FE /* LoginViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerFactory.swift; sourceTree = "<group>"; };
 		ECB62ED320203AB2009C85FE /* HomeViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerFactory.swift; sourceTree = "<group>"; };
-		ECB62ED620203BB3009C85FE /* SessionNavigationViewControllerRouterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionNavigationViewControllerRouterFactory.swift; sourceTree = "<group>"; };
+		ECB62ED620203BB3009C85FE /* SessionRouterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRouterFactory.swift; sourceTree = "<group>"; };
 		ECB62EFF20204C8D009C85FE /* UsuariosDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuariosDataManager.swift; sourceTree = "<group>"; };
 		ECB62F0220204D4B009C85FE /* UsuariosDataManagerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuariosDataManagerFactory.swift; sourceTree = "<group>"; };
-		ECB62F092020506E009C85FE /* UserDataManagerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataManagerType.swift; sourceTree = "<group>"; };
-		ECB62F0B2020508F009C85FE /* UserPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPersistence.swift; sourceTree = "<group>"; };
+		ECB62F092020506E009C85FE /* LoginDataManagerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataManagerType.swift; sourceTree = "<group>"; };
+		ECB62F0B2020508F009C85FE /* LoginDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataManager.swift; sourceTree = "<group>"; };
 		ECB62F1A2020671A009C85FE /* UserPersistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPersistable.swift; sourceTree = "<group>"; };
 		ECB62F1C2020687B009C85FE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		ECB62F2120206900009C85FE /* DataError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataError.swift; sourceTree = "<group>"; };
+		ECB62F2120206900009C85FE /* ErrorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorType.swift; sourceTree = "<group>"; };
 		ECB62F2420206A0C009C85FE /* String+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Constants.swift"; sourceTree = "<group>"; };
 		ECB62F2620206BF2009C85FE /* ResultData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultData.swift; sourceTree = "<group>"; };
+		ECB62F2B20208021009C85FE /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		ECB62F2D20208148009C85FE /* LoginRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouterInput.swift; sourceTree = "<group>"; };
+		ECB62F2F20208557009C85FE /* LoginRouterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouterFactory.swift; sourceTree = "<group>"; };
+		ECB62F3120208607009C85FE /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		ECB62F33202086AB009C85FE /* LoginPresenterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterFactory.swift; sourceTree = "<group>"; };
+		ECB62F3520208775009C85FE /* LoginInterector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInterector.swift; sourceTree = "<group>"; };
+		ECB62F3720208918009C85FE /* LoginInterectorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInterectorFactory.swift; sourceTree = "<group>"; };
+		ECB62F3920208C31009C85FE /* LoginDataManagerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataManagerFactory.swift; sourceTree = "<group>"; };
+		ECB62F3C202094C6009C85FE /* AlertError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertError.swift; sourceTree = "<group>"; };
+		ECB62F3E202097A2009C85FE /* RegisterDataManagerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterDataManagerType.swift; sourceTree = "<group>"; };
+		ECB62F40202097CB009C85FE /* RegisterDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterDataManager.swift; sourceTree = "<group>"; };
+		ECB62F4220209980009C85FE /* RegisterDataManagerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterDataManagerFactory.swift; sourceTree = "<group>"; };
+		ECB62F4420209A3D009C85FE /* RegisterRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouterInput.swift; sourceTree = "<group>"; };
+		ECB62F4620209A4A009C85FE /* RegisterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
+		ECB62F4820209BDB009C85FE /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		ECB62F4A20209CAD009C85FE /* RegisterInterector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInterector.swift; sourceTree = "<group>"; };
+		ECB62F4C20209CDD009C85FE /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
+		ECB62F5020209D1C009C85FE /* RegisterPresenterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenterFactory.swift; sourceTree = "<group>"; };
+		ECB62F5220209EA4009C85FE /* RegisterInterectorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInterectorFactory.swift; sourceTree = "<group>"; };
+		ECB62F5420209EDD009C85FE /* RegisterRouterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouterFactory.swift; sourceTree = "<group>"; };
+		ECB62F572020A502009C85FE /* ValidateString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateString.swift; sourceTree = "<group>"; };
+		ECB62F592020AED5009C85FE /* HomeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationController.swift; sourceTree = "<group>"; };
+		ECB62F5C2020B07D009C85FE /* Injectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injectable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +187,9 @@
 		ECB62EB220202BB8009C85FE /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				ECB62F5B2020B06A009C85FE /* Injectable */,
+				ECB62F562020A4F1009C85FE /* Validate */,
+				ECB62F3B202094B8009C85FE /* View */,
 				ECB62F23202069F8009C85FE /* Extension */,
 			);
 			path = Common;
@@ -170,6 +219,9 @@
 			isa = PBXGroup;
 			children = (
 				ECB62F0420204ED9009C85FE /* DataBase */,
+				ECB62F2A20207F54009C85FE /* Wireframe */,
+				ECB62F2820207EFA009C85FE /* Presenter */,
+				ECB62F2920207F33009C85FE /* Interector */,
 				ECB62EC92020389C009C85FE /* Controllers */,
 				ECB62ECF20203A3D009C85FE /* Factories */,
 			);
@@ -202,7 +254,7 @@
 		ECB62EC120203514009C85FE /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				ECB62EC220203707009C85FE /* SessionRouter */,
+				ECB62EC220203707009C85FE /* Wireframe */,
 				ECB62EBD20203480009C85FE /* Authenticate */,
 				ECB62EBE20203488009C85FE /* Home */,
 				ECB62EBF20203490009C85FE /* Draw */,
@@ -211,20 +263,21 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
-		ECB62EC220203707009C85FE /* SessionRouter */ = {
+		ECB62EC220203707009C85FE /* Wireframe */ = {
 			isa = PBXGroup;
 			children = (
-				ECB62EC72020379B009C85FE /* SessionRouter.swift */,
-				ECB62EC52020375D009C85FE /* SessionNavigationViewControllerRouter.swift */,
+				ECB62EC72020379B009C85FE /* SessionRouterInput.swift */,
+				ECB62EC52020375D009C85FE /* SessionRouter.swift */,
 				ECB62ED520203BA0009C85FE /* Factories */,
 			);
-			path = SessionRouter;
+			path = Wireframe;
 			sourceTree = "<group>";
 		};
 		ECB62EC92020389C009C85FE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				ECB62ECB202038BF009C85FE /* LoginViewController.swift */,
+				ECB62F4820209BDB009C85FE /* RegisterViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -232,6 +285,7 @@
 		ECB62ECA202038A4009C85FE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				ECB62F592020AED5009C85FE /* HomeNavigationController.swift */,
 				ECB62ECD202038CB009C85FE /* HomeViewController.swift */,
 			);
 			path = Controllers;
@@ -240,7 +294,15 @@
 		ECB62ECF20203A3D009C85FE /* Factories */ = {
 			isa = PBXGroup;
 			children = (
+				ECB62F33202086AB009C85FE /* LoginPresenterFactory.swift */,
+				ECB62F2F20208557009C85FE /* LoginRouterFactory.swift */,
 				ECB62ED020203A5B009C85FE /* LoginViewControllerFactory.swift */,
+				ECB62F3720208918009C85FE /* LoginInterectorFactory.swift */,
+				ECB62F3920208C31009C85FE /* LoginDataManagerFactory.swift */,
+				ECB62F4220209980009C85FE /* RegisterDataManagerFactory.swift */,
+				ECB62F5020209D1C009C85FE /* RegisterPresenterFactory.swift */,
+				ECB62F5220209EA4009C85FE /* RegisterInterectorFactory.swift */,
+				ECB62F5420209EDD009C85FE /* RegisterRouterFactory.swift */,
 			);
 			path = Factories;
 			sourceTree = "<group>";
@@ -256,7 +318,7 @@
 		ECB62ED520203BA0009C85FE /* Factories */ = {
 			isa = PBXGroup;
 			children = (
-				ECB62ED620203BB3009C85FE /* SessionNavigationViewControllerRouterFactory.swift */,
+				ECB62ED620203BB3009C85FE /* SessionRouterFactory.swift */,
 			);
 			path = Factories;
 			sourceTree = "<group>";
@@ -275,7 +337,7 @@
 			isa = PBXGroup;
 			children = (
 				ECB62F0220204D4B009C85FE /* UsuariosDataManagerFactory.swift */,
-				ECB62F2120206900009C85FE /* DataError.swift */,
+				ECB62F2120206900009C85FE /* ErrorType.swift */,
 			);
 			path = Factories;
 			sourceTree = "<group>";
@@ -283,8 +345,10 @@
 		ECB62F0420204ED9009C85FE /* DataBase */ = {
 			isa = PBXGroup;
 			children = (
-				ECB62F092020506E009C85FE /* UserDataManagerType.swift */,
-				ECB62F0B2020508F009C85FE /* UserPersistence.swift */,
+				ECB62F092020506E009C85FE /* LoginDataManagerType.swift */,
+				ECB62F0B2020508F009C85FE /* LoginDataManager.swift */,
+				ECB62F3E202097A2009C85FE /* RegisterDataManagerType.swift */,
+				ECB62F40202097CB009C85FE /* RegisterDataManager.swift */,
 			);
 			path = DataBase;
 			sourceTree = "<group>";
@@ -303,6 +367,59 @@
 				ECB62F2420206A0C009C85FE /* String+Constants.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		ECB62F2820207EFA009C85FE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				ECB62F3120208607009C85FE /* LoginPresenter.swift */,
+				ECB62F4C20209CDD009C85FE /* RegisterPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		ECB62F2920207F33009C85FE /* Interector */ = {
+			isa = PBXGroup;
+			children = (
+				ECB62F3520208775009C85FE /* LoginInterector.swift */,
+				ECB62F4A20209CAD009C85FE /* RegisterInterector.swift */,
+			);
+			path = Interector;
+			sourceTree = "<group>";
+		};
+		ECB62F2A20207F54009C85FE /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				ECB62F2D20208148009C85FE /* LoginRouterInput.swift */,
+				ECB62F2B20208021009C85FE /* LoginRouter.swift */,
+				ECB62F4420209A3D009C85FE /* RegisterRouterInput.swift */,
+				ECB62F4620209A4A009C85FE /* RegisterRouter.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		ECB62F3B202094B8009C85FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECB62F3C202094C6009C85FE /* AlertError.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECB62F562020A4F1009C85FE /* Validate */ = {
+			isa = PBXGroup;
+			children = (
+				ECB62F572020A502009C85FE /* ValidateString.swift */,
+			);
+			path = Validate;
+			sourceTree = "<group>";
+		};
+		ECB62F5B2020B06A009C85FE /* Injectable */ = {
+			isa = PBXGroup;
+			children = (
+				ECB62F5C2020B07D009C85FE /* Injectable.swift */,
+			);
+			path = Injectable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,23 +528,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECB62EC62020375D009C85FE /* SessionNavigationViewControllerRouter.swift in Sources */,
+				ECB62EC62020375D009C85FE /* SessionRouter.swift in Sources */,
 				ECB62F0320204D4B009C85FE /* UsuariosDataManagerFactory.swift in Sources */,
-				ECB62F2220206900009C85FE /* DataError.swift in Sources */,
-				ECB62F0A2020506E009C85FE /* UserDataManagerType.swift in Sources */,
-				ECB62ED720203BB3009C85FE /* SessionNavigationViewControllerRouterFactory.swift in Sources */,
+				ECB62F2220206900009C85FE /* ErrorType.swift in Sources */,
+				ECB62F2E20208148009C85FE /* LoginRouterInput.swift in Sources */,
+				ECB62F3220208607009C85FE /* LoginPresenter.swift in Sources */,
+				ECB62F0A2020506E009C85FE /* LoginDataManagerType.swift in Sources */,
+				ECB62ED720203BB3009C85FE /* SessionRouterFactory.swift in Sources */,
+				ECB62F4520209A3D009C85FE /* RegisterRouterInput.swift in Sources */,
 				ECB62E9820202198009C85FE /* Usuarios.xcdatamodeld in Sources */,
+				ECB62F3620208775009C85FE /* LoginInterector.swift in Sources */,
 				ECB62ED420203AB2009C85FE /* HomeViewControllerFactory.swift in Sources */,
 				ECB62E9020202198009C85FE /* AppDelegate.swift in Sources */,
+				ECB62F4920209BDB009C85FE /* RegisterViewController.swift in Sources */,
+				ECB62F3D202094C6009C85FE /* AlertError.swift in Sources */,
+				ECB62F3F202097A2009C85FE /* RegisterDataManagerType.swift in Sources */,
+				ECB62F3A20208C31009C85FE /* LoginDataManagerFactory.swift in Sources */,
+				ECB62F5D2020B07D009C85FE /* Injectable.swift in Sources */,
 				ECB62F2720206BF2009C85FE /* ResultData.swift in Sources */,
-				ECB62F0C2020508F009C85FE /* UserPersistence.swift in Sources */,
+				ECB62F0C2020508F009C85FE /* LoginDataManager.swift in Sources */,
 				ECB62F1D2020687B009C85FE /* User.swift in Sources */,
+				ECB62F5320209EA4009C85FE /* RegisterInterectorFactory.swift in Sources */,
 				ECB62ECC202038BF009C85FE /* LoginViewController.swift in Sources */,
 				ECB62F2520206A0C009C85FE /* String+Constants.swift in Sources */,
 				ECB62F0020204C8D009C85FE /* UsuariosDataManager.swift in Sources */,
+				ECB62F5120209D1C009C85FE /* RegisterPresenterFactory.swift in Sources */,
+				ECB62F4720209A4A009C85FE /* RegisterRouter.swift in Sources */,
+				ECB62F4B20209CAD009C85FE /* RegisterInterector.swift in Sources */,
+				ECB62F3820208918009C85FE /* LoginInterectorFactory.swift in Sources */,
+				ECB62F34202086AB009C85FE /* LoginPresenterFactory.swift in Sources */,
+				ECB62F41202097CB009C85FE /* RegisterDataManager.swift in Sources */,
+				ECB62F2C20208021009C85FE /* LoginRouter.swift in Sources */,
+				ECB62F5A2020AED5009C85FE /* HomeNavigationController.swift in Sources */,
 				ECB62ED120203A5B009C85FE /* LoginViewControllerFactory.swift in Sources */,
-				ECB62EC82020379B009C85FE /* SessionRouter.swift in Sources */,
+				ECB62F3020208557009C85FE /* LoginRouterFactory.swift in Sources */,
+				ECB62F5520209EDD009C85FE /* RegisterRouterFactory.swift in Sources */,
+				ECB62F582020A502009C85FE /* ValidateString.swift in Sources */,
+				ECB62F4D20209CDD009C85FE /* RegisterPresenter.swift in Sources */,
+				ECB62EC82020379B009C85FE /* SessionRouterInput.swift in Sources */,
 				ECB62F1B2020671A009C85FE /* UserPersistable.swift in Sources */,
+				ECB62F4320209980009C85FE /* RegisterDataManagerFactory.swift in Sources */,
 				ECB62ECE202038CB009C85FE /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

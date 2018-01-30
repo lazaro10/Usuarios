@@ -27,7 +27,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="loginAction:" destination="Rms-4t-7ab" eventType="touchUpInside" id="rrm-Q3-dFb"/>
+                                    <action selector="loginAction:" destination="Rms-4t-7ab" eventType="touchUpInside" id="rkg-i9-mrP"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cy2-ic-eka">
@@ -56,7 +56,7 @@
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <state key="normal" title="Don't have account? Sing up now!"/>
                                 <connections>
-                                    <segue destination="N8h-Lr-tOh" kind="show" id="geh-Nj-ahI"/>
+                                    <segue destination="N8h-Lr-tOh" kind="show" id="WgQ-4p-EHq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -84,15 +84,19 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Izw-Tc-hM6"/>
                     </view>
+                    <connections>
+                        <outlet property="passwordTextField" destination="Cy2-ic-eka" id="4uV-tR-0WB"/>
+                        <outlet property="usernameTextField" destination="s75-dj-Vn1" id="Kh9-A6-pxi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r1k-4n-Nu9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="78" y="143"/>
         </scene>
-        <!--View Controller-->
+        <!--Register View Controller-->
         <scene sceneID="fI8-Cb-jVg">
             <objects>
-                <viewController id="N8h-Lr-tOh" sceneMemberID="viewController">
+                <viewController id="N8h-Lr-tOh" customClass="RegisterViewController" customModule="Usuarios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="syi-Oj-GEY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,6 +108,9 @@
                                 <state key="normal" title="Register">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="regiterAction:" destination="N8h-Lr-tOh" eventType="touchUpInside" id="EQS-jP-PGL"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4iM-5e-4m7">
                                 <rect key="frame" x="38" y="280" width="300" height="53.5"/>
@@ -122,6 +129,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="usernameTextField:" destination="Qc0-It-Mgv" eventType="editingDidEnd" id="c7f-ew-GX3"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sing Up" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apO-np-ErF">
                                 <rect key="frame" x="38" y="69.5" width="300" height="53.5"/>
@@ -167,10 +177,19 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yT0-Ll-Blf"/>
                     </view>
+                    <connections>
+                        <outlet property="confirmPasswordTextField" destination="4iM-5e-4m7" id="a7a-6h-HRu"/>
+                        <outlet property="passwordTextField" destination="PiV-mZ-M34" id="6Vs-dO-ZDQ"/>
+                        <outlet property="usernameTextField" destination="EsM-gb-x5i" id="6bf-fl-ood"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jCK-pT-PYh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Qc0-It-Mgv" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="927" y="143"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="WgQ-4p-EHq"/>
+    </inferredMetricsTieBreakers>
 </document>
