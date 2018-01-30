@@ -18,4 +18,8 @@ extension String {
         static let other = "Error"
     }
 
+    struct ItemHome {
+        static let draw = "Draw Something Awesome"
+        static let users = "List Users"
+    }
 }

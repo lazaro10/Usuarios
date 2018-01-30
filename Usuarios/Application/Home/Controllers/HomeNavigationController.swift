@@ -15,9 +15,7 @@ class HomeNavigationController: UINavigationController {
         super.viewDidLoad()
         assertDependencies()
         (viewControllers.first as! HomeViewController).inject(user)
-        
     }
-
 }
 
 extension HomeNavigationController: Injectable {

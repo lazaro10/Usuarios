@@ -17,8 +17,7 @@ final class LoginRouter: LoginRouterInput {
     }
     
     func presentHome(user: User) {
-        let storyboard = UIStoryboard(name: "Home", bundle: nil)
-        let navigation = storyboard.instantiateViewController(withIdentifier: "HomeNavigationController") as! HomeNavigationController
+        let navigation = HomeNavigationControllerFactory.make()
         navigation.inject(user)
         loginViewController.present(navigation, animated: true, completion: nil)
     }

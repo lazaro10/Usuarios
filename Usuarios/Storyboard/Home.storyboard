@@ -18,13 +18,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gf9-rF-VgE">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="60" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="gf9-rF-VgE">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <color key="sectionIndexBackgroundColor" red="0.92536520960000002" green="0.92540150880000005" blue="0.93354290719999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.92536520960000002" green="0.92540150880000005" blue="0.93354290719999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="gf9-rF-VgE" firstAttribute="top" secondItem="MFj-fk-qg1" secondAttribute="top" id="3Xe-NH-TCw"/>
                             <constraint firstItem="MFj-fk-qg1" firstAttribute="bottom" secondItem="gf9-rF-VgE" secondAttribute="bottom" id="4DL-k9-plB"/>
@@ -36,15 +36,22 @@
                     <navigationItem key="navigationItem" title="Home" id="QdR-Fj-qkG">
                         <barButtonItem key="leftBarButtonItem" style="plain" id="GTm-77-Jbs">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pD8-Uc-qdL">
-                                <rect key="frame" x="16" y="7" width="83" height="30"/>
+                                <rect key="frame" x="16" y="5.5" width="83" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Logout"/>
+                                <connections>
+                                    <action selector="loggoutAction:" destination="2FC-ka-pFa" eventType="touchUpInside" id="Uhe-Jh-rbc"/>
+                                </connections>
                             </button>
                             <connections>
                                 <segue destination="xpK-el-yGL" kind="show" id="CNH-3X-5mG"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="gf9-rF-VgE" id="Nxl-el-H97"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dwc-iO-m9d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

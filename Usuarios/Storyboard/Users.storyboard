@@ -13,7 +13,7 @@
         <!--Registered Users-->
         <scene sceneID="l4n-Fo-0Hq">
             <objects>
-                <viewController title="Registered Users" id="5Oz-RZ-SbE" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UserListViewController" title="Registered Users" id="5Oz-RZ-SbE" customClass="UserListViewController" customModule="Usuarios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gRO-kl-rEC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
