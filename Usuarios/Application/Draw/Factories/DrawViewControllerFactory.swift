@@ -11,6 +11,6 @@ import UIKit
 struct DrawViewControllerFactory {
     static func make() -> DrawViewController {
         let storyboard = UIStoryboard(name: "Draw", bundle: nil)
-        return storyboard.instantiateViewController(withIdentifier: "DrawViewController") as! DrawViewController
+        return storyboard.instantiateViewController(withIdentifier: DrawViewController.identifier) as! DrawViewController
     }
 }

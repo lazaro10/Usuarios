@@ -73,3 +73,5 @@ extension DrawViewController {
     }
     
 }
+
+extension DrawViewController: Identifiable { }

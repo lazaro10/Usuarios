@@ -11,6 +11,6 @@ import UIKit
 struct UserListViewControllerFactory {
     static func make() -> UserListViewController {
         let storyboard = UIStoryboard(name: "Users", bundle: nil)
-        return storyboard.instantiateViewController(withIdentifier: "UserListViewController") as! UserListViewController
+        return storyboard.instantiateViewController(withIdentifier: UserListViewController.identifier) as! UserListViewController
     }
 }

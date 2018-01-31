@@ -52,7 +52,6 @@
 		ECB62F5320209EA4009C85FE /* RegisterInteractorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F5220209EA4009C85FE /* RegisterInteractorFactory.swift */; };
 		ECB62F5520209EDD009C85FE /* RegisterRouterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F5420209EDD009C85FE /* RegisterRouterFactory.swift */; };
 		ECB62F582020A502009C85FE /* ValidateString.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F572020A502009C85FE /* ValidateString.swift */; };
-		ECB62F5A2020AED5009C85FE /* HomeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F592020AED5009C85FE /* HomeNavigationController.swift */; };
 		ECB62F5D2020B07D009C85FE /* Injectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F5C2020B07D009C85FE /* Injectable.swift */; };
 		ECB62F612020B6FC009C85FE /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F5F2020B6FC009C85FE /* HomeTableViewCell.swift */; };
 		ECB62F622020B6FC009C85FE /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB62F602020B6FC009C85FE /* HomeTableViewCell.xib */; };
@@ -151,7 +150,6 @@
 		ECB62F5220209EA4009C85FE /* RegisterInteractorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInteractorFactory.swift; sourceTree = "<group>"; };
 		ECB62F5420209EDD009C85FE /* RegisterRouterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouterFactory.swift; sourceTree = "<group>"; };
 		ECB62F572020A502009C85FE /* ValidateString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateString.swift; sourceTree = "<group>"; };
-		ECB62F592020AED5009C85FE /* HomeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationController.swift; sourceTree = "<group>"; };
 		ECB62F5C2020B07D009C85FE /* Injectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injectable.swift; sourceTree = "<group>"; };
 		ECB62F5F2020B6FC009C85FE /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		ECB62F602020B6FC009C85FE /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
@@ -370,7 +368,6 @@
 		ECB62ECA202038A4009C85FE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				ECB62F592020AED5009C85FE /* HomeNavigationController.swift */,
 				ECB62ECD202038CB009C85FE /* HomeViewController.swift */,
 			);
 			path = Controllers;
@@ -817,7 +814,6 @@
 				ECB62F2C20208021009C85FE /* LoginRouter.swift in Sources */,
 				ECB62F7D2021336E009C85FE /* HomeNavigationControllerFactory.swift in Sources */,
 				ECB62F9520213E10009C85FE /* UserListInteractorFactory.swift in Sources */,
-				ECB62F5A2020AED5009C85FE /* HomeNavigationController.swift in Sources */,
 				ECB62ED120203A5B009C85FE /* LoginViewControllerFactory.swift in Sources */,
 				ECB62FC220227135009C85FE /* DrawPresenterFactory.swift in Sources */,
 				ECB62F8320213543009C85FE /* UserListViewControllerFactory.swift in Sources */,
