@@ -43,3 +43,5 @@ class UserListViewController: UIViewController {
     }
 
 }
+
+extension UserListViewController: Identifiable { }

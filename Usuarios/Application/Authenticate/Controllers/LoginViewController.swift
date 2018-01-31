@@ -33,6 +33,8 @@ class LoginViewController: UIViewController {
     @IBAction func loginAction(_ sender: Any) {
         interactor.login(username: usernameTextField.text ?? "", password: passwordTextField.text ?? "")
     }
-    
 
 }
+
+extension LoginViewController: Identifiable { }
+

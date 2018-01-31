@@ -32,3 +32,5 @@ class RegisterViewController: UIViewController {
     }
     
 }
+
+extension RegisterViewController: Identifiable { }

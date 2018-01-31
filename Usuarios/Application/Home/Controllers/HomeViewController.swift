@@ -51,3 +51,5 @@ extension HomeViewController: UITableViewDelegate {
     }
 }
 
+extension HomeViewController: Identifiable { }
+

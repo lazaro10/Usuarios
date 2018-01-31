@@ -9,8 +9,8 @@
 import UIKit
 
 struct HomeNavigationControllerFactory {
-    static func make() -> HomeNavigationController{
+    static func make() -> UINavigationController {
         let storyboard = UIStoryboard(name: "Home", bundle: nil)
-        return storyboard.instantiateViewController(withIdentifier: "HomeNavigationController") as! HomeNavigationController
+        return storyboard.instantiateViewController(withIdentifier: "HomeNavigationController") as! UINavigationController
     }
 }

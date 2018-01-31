@@ -11,7 +11,7 @@ struct LoginViewControllerFactory {
     
     static func make() -> LoginViewController {
         let storyboard = UIStoryboard(name: "Authenticate", bundle: nil)
-        return storyboard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+        return storyboard.instantiateViewController(withIdentifier: LoginViewController.identifier) as! LoginViewController
     }
-    
 }
+
