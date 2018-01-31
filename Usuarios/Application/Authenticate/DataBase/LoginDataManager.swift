@@ -33,6 +33,4 @@ struct LoginDataManager: LoginDataManagerType {
             completionHandler(ResultData.fail(ErrorType.other(error)))
         }
     }
-    
-    
 }

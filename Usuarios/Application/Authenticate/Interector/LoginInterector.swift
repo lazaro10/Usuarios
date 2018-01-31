@@ -8,7 +8,7 @@
 
 struct LoginInterector {
     
-    private(set) var presenter: LoginPresenter
+    private var presenter: LoginPresenter
     private let dataManager: LoginDataManagerType
     
     init(presenter: LoginPresenter, dataManager: LoginDataManagerType) {

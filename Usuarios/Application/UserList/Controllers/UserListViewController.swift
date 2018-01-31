@@ -10,26 +10,36 @@ import UIKit
 
 class UserListViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    private lazy var interector = UserListInterectorFactory.make(presenter: UserListPresenterFactory.make(onSuccess: { users in
+        self.users = users
+    }), dataManager: UserListDataManagerFactory.make())
+    
+    private var users: [User] = [] {
+        didSet {
+            setDataSource(users: users)
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    private var dataSource: TableDataSource<UserTableViewCell, User>!
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        configureTable()
+        interector.users()
     }
-    */
+    
+    private func configureTable() {
+        tableView.register(UINib(nibName: UserTableViewCell.nibName, bundle: nil), forCellReuseIdentifier: UserTableViewCell.identifier)
+    }
+    
+    private func setDataSource(users: [User]) {
+        DispatchQueue.main.async {
+            self.dataSource = TableDataSource(items: users)
+            self.tableView.dataSource = self.dataSource
+            self.tableView.reloadData()
+        }
+    }
 
 }

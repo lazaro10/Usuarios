@@ -9,7 +9,7 @@
 import Foundation
 
 struct RegisterInterector {
-    private(set) var presenter: RegisterPresenter
+    private var presenter: RegisterPresenter
     private let dataManager: RegisterDataManagerType
     
     init(presenter: RegisterPresenter, dataManager: RegisterDataManagerType) {
