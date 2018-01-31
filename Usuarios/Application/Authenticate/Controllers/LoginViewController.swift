@@ -21,6 +21,13 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.hideKeyboardWhenTappedAround()
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        usernameTextField.text = ""
+        passwordTextField.text = ""
     }
 
     @IBAction func loginAction(_ sender: Any) {

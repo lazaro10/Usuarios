@@ -34,7 +34,7 @@
                                 <rect key="frame" x="37.5" y="280" width="300" height="53.5"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s75-dj-Vn1">
                                 <rect key="frame" x="37.5" y="221.5" width="300" height="53.5"/>
@@ -43,7 +43,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agence Demon Applicaion" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Fh-9T-QwY">
-                                <rect key="frame" x="37.5" y="128" width="300" height="53.5"/>
+                                <rect key="frame" x="37.5" y="101.5" width="300" height="80"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -72,7 +72,7 @@
                             <constraint firstItem="3jT-Za-Dhx" firstAttribute="top" secondItem="3ZM-rA-HjI" secondAttribute="bottom" constant="30" id="KGI-x8-52a"/>
                             <constraint firstItem="Cy2-ic-eka" firstAttribute="height" secondItem="3ZM-rA-HjI" secondAttribute="height" id="MeR-le-EC3"/>
                             <constraint firstItem="3ZM-rA-HjI" firstAttribute="centerX" secondItem="smM-RJ-k19" secondAttribute="centerX" id="OYA-BQ-rpF"/>
-                            <constraint firstItem="1Fh-9T-QwY" firstAttribute="height" secondItem="s75-dj-Vn1" secondAttribute="height" id="UBz-yp-Ip9"/>
+                            <constraint firstItem="1Fh-9T-QwY" firstAttribute="height" secondItem="s75-dj-Vn1" secondAttribute="height" multiplier="1.5" id="UBz-yp-Ip9"/>
                             <constraint firstItem="3ZM-rA-HjI" firstAttribute="top" secondItem="Cy2-ic-eka" secondAttribute="bottom" constant="40" id="WtI-mo-ahn"/>
                             <constraint firstItem="Cy2-ic-eka" firstAttribute="top" secondItem="s75-dj-Vn1" secondAttribute="bottom" constant="5" id="Y4Z-80-m5p"/>
                             <constraint firstItem="s75-dj-Vn1" firstAttribute="centerX" secondItem="Cy2-ic-eka" secondAttribute="centerX" id="c3m-Op-y2E"/>
@@ -91,7 +91,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r1k-4n-Nu9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="78" y="143"/>
+            <point key="canvasLocation" x="81" y="143"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="fI8-Cb-jVg">
@@ -116,13 +116,13 @@
                                 <rect key="frame" x="38" y="280" width="300" height="53.5"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PiV-mZ-M34">
                                 <rect key="frame" x="38" y="221.5" width="300" height="53.5"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EsM-gb-x5i">
                                 <rect key="frame" x="38" y="163" width="300" height="53.5"/>
@@ -139,8 +139,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvE-RK-o3X">
-                                <rect key="frame" x="38.5" y="457" width="300" height="53.5"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvE-RK-o3X">
+                                <rect key="frame" x="38.5" y="457" width="300" height="85.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <state key="normal" title="I already have a account, Sign in now!"/>
                                 <connections>
@@ -167,7 +167,7 @@
                             <constraint firstItem="apO-np-ErF" firstAttribute="width" secondItem="EsM-gb-x5i" secondAttribute="width" id="fYz-WI-9Rr"/>
                             <constraint firstItem="oeS-IN-eWV" firstAttribute="width" secondItem="syi-Oj-GEY" secondAttribute="width" multiplier="0.8" id="gnc-Od-PFa"/>
                             <constraint firstItem="4iM-5e-4m7" firstAttribute="centerX" secondItem="oeS-IN-eWV" secondAttribute="centerX" id="iKf-cl-4hm"/>
-                            <constraint firstItem="xvE-RK-o3X" firstAttribute="height" secondItem="oeS-IN-eWV" secondAttribute="height" id="kSM-ye-jgg"/>
+                            <constraint firstItem="xvE-RK-o3X" firstAttribute="height" secondItem="oeS-IN-eWV" secondAttribute="height" multiplier="1.6" id="kSM-ye-jgg"/>
                             <constraint firstItem="oeS-IN-eWV" firstAttribute="centerX" secondItem="syi-Oj-GEY" secondAttribute="centerX" id="kjx-6S-a7r"/>
                             <constraint firstItem="PiV-mZ-M34" firstAttribute="centerX" secondItem="4iM-5e-4m7" secondAttribute="centerX" id="ps1-rt-a5z"/>
                             <constraint firstItem="oeS-IN-eWV" firstAttribute="centerY" secondItem="syi-Oj-GEY" secondAttribute="centerY" multiplier="1.2" id="tum-Wd-4dV"/>
@@ -190,6 +190,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="WgQ-4p-EHq"/>
+        <segue reference="Kk9-VA-k9e"/>
     </inferredMetricsTieBreakers>
 </document>
