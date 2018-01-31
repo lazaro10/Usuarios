@@ -6,4 +6,9 @@
 //  Copyright © 2018 Lázaro Lima dos Santos. All rights reserved.
 //
 
-import Foundation
+struct DrawingDataManagerFactory {
+    static func make() -> DrawingDataManagerType {
+        return DrawingDataManager()
+    }
+}
+
