@@ -1,5 +1,5 @@
 //
-//  RegisterInterector.swift
+//  RegisterInteractor.swift
 //  Usuarios
 //
 //  Created by Lázaro Lima dos Santos on 30/01/18.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct RegisterInterector {
+struct RegisterInteractor {
     private var presenter: RegisterPresenter
     private let dataManager: RegisterDataManagerType
     

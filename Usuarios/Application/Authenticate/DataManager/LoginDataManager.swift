@@ -14,7 +14,7 @@ struct LoginDataManager: LoginDataManagerType {
     private let entityName = "UserPersistable"
     private let context = UsuariosDataManagerFactory.make().persistentContainer.viewContext
     
-    func login(username: String, password: String, completionHandler: @escaping ((ResultData<User, ErrorType>) -> Void)) {
+    func login(username: String, password: String, completionHandler: @escaping ((ResultData<String, ErrorType>) -> Void)) {
         let fetchRequest: NSFetchRequest<UserPersistable> = UserPersistable.fetchRequest()
         fetchRequest.predicate = NSPredicate(format: "username == %@", username)
         
@@ -24,8 +24,9 @@ struct LoginDataManager: LoginDataManagerType {
                 if first.password != password {
                     completionHandler(ResultData.fail(ErrorType.invalidPassword))
                 } else {
-                    completionHandler(ResultData.success(User(username: first.username!)))
+                    completionHandler(ResultData.success(first.username!))
                 }
+                
             } else {
                 completionHandler(ResultData.fail(ErrorType.userNotFound))
             }

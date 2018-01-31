@@ -7,6 +7,6 @@
 //
 
 protocol LoginRouterInput {
-    func presentHome(user: User)
+    func presentHome()
     func presentError(error: ErrorType)
 }

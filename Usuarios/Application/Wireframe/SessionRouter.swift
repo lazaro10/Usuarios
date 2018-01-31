@@ -21,9 +21,16 @@ final class SessionRouter: SessionRouterInput {
     }
     
     func root() {
-            loginViewController = LoginViewControllerFactory.make()
+        
+        if (DataSession.getUsername() != nil) {
             window.makeKeyAndVisible()
-            window.rootViewController = loginViewController
+            window.rootViewController = HomeNavigationControllerFactory.make()
+        } else {
+            window.makeKeyAndVisible()
+            window.rootViewController = LoginViewControllerFactory.make()
+        }
+        
+        
     }
     
 }
