@@ -15,7 +15,7 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var confirmPasswordTextField: UITextField!
     
     
-    private lazy var interector = RegisterInterectorFactory.make(presenter: RegisterPresenterFactory.make(onSuccess: {
+    private lazy var interactor = RegisterInteractorFactory.make(presenter: RegisterPresenterFactory.make(onSuccess: {
         RegisterRouterFactory.make(view: self).presentSuccess(message: "User saved!")
     }, onError: { error in
         RegisterRouterFactory.make(view: self).presentError(error: error)
@@ -28,7 +28,7 @@ class RegisterViewController: UIViewController {
     
     
     @IBAction func regiterAction(_ sender: Any) {
-        interector.register(username: usernameTextField.text ?? "", password: passwordTextField.text ?? "", confirmPassword: confirmPasswordTextField.text ?? "")
+        interactor.register(username: usernameTextField.text ?? "", password: passwordTextField.text ?? "", confirmPassword: confirmPasswordTextField.text ?? "")
     }
     
 }

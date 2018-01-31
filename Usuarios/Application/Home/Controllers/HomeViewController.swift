@@ -11,7 +11,6 @@ import UIKit
 class HomeViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    fileprivate var user: User!
     private var dataSource: TableDataSource<HomeTableViewCell, ItemHomeType>!
     
     private var items: [ItemHomeType] = [] {
@@ -22,7 +21,6 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        assertDependencies()
         configureTable()
         items = [ItemHomeType.draw, ItemHomeType.users]
     }
@@ -53,13 +51,3 @@ extension HomeViewController: UITableViewDelegate {
     }
 }
 
-extension HomeViewController: Injectable {
-    
-    func inject(_ user: User) {
-        self.user = user
-    }
-    
-    func assertDependencies() {
-        assert(user != nil)
-    }
-}

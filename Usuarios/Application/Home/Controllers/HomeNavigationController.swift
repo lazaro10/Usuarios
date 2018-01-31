@@ -10,21 +10,8 @@ import UIKit
 
 class HomeNavigationController: UINavigationController {
     
-    fileprivate var user: User!
     override func viewDidLoad() {
         super.viewDidLoad()
-        assertDependencies()
-        (viewControllers.first as! HomeViewController).inject(user)
     }
 }
 
-extension HomeNavigationController: Injectable {
-    
-    func inject(_ user: User) {
-        self.user = user
-    }
-    
-    func assertDependencies() {
-        assert(user != nil)
-    }
-}

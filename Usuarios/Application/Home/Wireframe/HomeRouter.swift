@@ -16,9 +16,9 @@ final class HomeRouter: HomeRouterInput {
         self.homeViewController = view
     }
     
-    
     func loggout() {
-        homeViewController.dismiss(animated: true, completion: nil)
+        DataSession.removeUsername()
+        homeViewController.present(LoginViewControllerFactory.make(), animated: true, completion: nil)
     }
     
     func presentItemHome(itemHome: ItemHomeType) {

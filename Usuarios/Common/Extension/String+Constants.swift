@@ -22,4 +22,8 @@ extension String {
         static let draw = "Draw Something Awesome"
         static let users = "List Users"
     }
+    
+    struct Defaults {
+        static let currentUser = "currentUser"
+    }
 }
