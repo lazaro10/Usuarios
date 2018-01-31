@@ -1,5 +1,5 @@
 //
-//  UserListInterector.swift
+//  UserListInteractor.swift
 //  Usuarios
 //
 //  Created by Lázaro Lima dos Santos on 30/01/18.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct UserListInterector {
+struct UserListInteractor {
     private var presenter: UserListPresenter
     private let dataManager: UserListDataManagerType
     

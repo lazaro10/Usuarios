@@ -10,7 +10,7 @@ import UIKit
 
 class UserListViewController: UIViewController {
 
-    private lazy var interector = UserListInterectorFactory.make(presenter: UserListPresenterFactory.make(onSuccess: { users in
+    private lazy var interactor = UserListInteractorFactory.make(presenter: UserListPresenterFactory.make(onSuccess: { users in
         self.users = users
     }), dataManager: UserListDataManagerFactory.make())
     
@@ -27,7 +27,7 @@ class UserListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureTable()
-        interector.users()
+        interactor.users()
     }
     
     private func configureTable() {

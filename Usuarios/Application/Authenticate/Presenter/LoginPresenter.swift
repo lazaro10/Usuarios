@@ -9,16 +9,16 @@
 import Foundation
 
 final class LoginPresenter {
-    private let onSuccess: (User) -> Void
+    private let onSuccess: () -> Void
     private let onError: (ErrorType) -> Void
     
-    init(onSuccess: @escaping (User) -> Void, onError: @escaping (ErrorType) -> Void) {
+    init(onSuccess: @escaping () -> Void, onError: @escaping (ErrorType) -> Void) {
         self.onSuccess = onSuccess
         self.onError = onError
     }
     
-    func present(user: User) {
-        onSuccess(user)
+    func success() {
+        onSuccess()
     }
     
     func present(error: ErrorType) {

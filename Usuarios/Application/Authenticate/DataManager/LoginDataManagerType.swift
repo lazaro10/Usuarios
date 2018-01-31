@@ -7,7 +7,7 @@
 //
 
 protocol LoginDataManagerType {
-    func login(username: String, password: String, completionHandler: @escaping ((ResultData<User, ErrorType>) -> Void))
+    func login(username: String, password: String, completionHandler: @escaping ((ResultData<String, ErrorType>) -> Void))
     
 }
 

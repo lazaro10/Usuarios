@@ -1,12 +1,12 @@
 //
-//  LoginInterector.swift
+//  LoginInteractor.swift
 //  Usuarios
 //
 //  Created by Lázaro Lima dos Santos on 30/01/18.
 //  Copyright © 2018 Lázaro Lima dos Santos. All rights reserved.
 //
 
-struct LoginInterector {
+struct LoginInteractor {
     
     private var presenter: LoginPresenter
     private let dataManager: LoginDataManagerType
@@ -26,8 +26,9 @@ struct LoginInterector {
         
         dataManager.login(username: username, password: password) { result in
             switch result {
-            case .success( let user):
-                self.presenter.present(user: user)
+            case .success( let username):
+                DataSession.saveUsername(username: username)
+                self.presenter.success()
             case .fail(let error):
                 self.presenter.present(error: error)
             }

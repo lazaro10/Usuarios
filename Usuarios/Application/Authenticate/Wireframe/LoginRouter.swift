@@ -16,9 +16,8 @@ final class LoginRouter: LoginRouterInput {
         self.loginViewController = view
     }
     
-    func presentHome(user: User) {
+    func presentHome() {
         let navigation = HomeNavigationControllerFactory.make()
-        navigation.inject(user)
         loginViewController.present(navigation, animated: true, completion: nil)
     }
     

@@ -36,8 +36,8 @@
 		ECB62F3020208557009C85FE /* LoginRouterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F2F20208557009C85FE /* LoginRouterFactory.swift */; };
 		ECB62F3220208607009C85FE /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F3120208607009C85FE /* LoginPresenter.swift */; };
 		ECB62F34202086AB009C85FE /* LoginPresenterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F33202086AB009C85FE /* LoginPresenterFactory.swift */; };
-		ECB62F3620208775009C85FE /* LoginInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F3520208775009C85FE /* LoginInterector.swift */; };
-		ECB62F3820208918009C85FE /* LoginInterectorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F3720208918009C85FE /* LoginInterectorFactory.swift */; };
+		ECB62F3620208775009C85FE /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F3520208775009C85FE /* LoginInteractor.swift */; };
+		ECB62F3820208918009C85FE /* LoginInteractorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F3720208918009C85FE /* LoginInteractorFactory.swift */; };
 		ECB62F3A20208C31009C85FE /* LoginDataManagerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F3920208C31009C85FE /* LoginDataManagerFactory.swift */; };
 		ECB62F3D202094C6009C85FE /* AlertError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F3C202094C6009C85FE /* AlertError.swift */; };
 		ECB62F3F202097A2009C85FE /* RegisterDataManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F3E202097A2009C85FE /* RegisterDataManagerType.swift */; };
@@ -46,10 +46,10 @@
 		ECB62F4520209A3D009C85FE /* RegisterRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F4420209A3D009C85FE /* RegisterRouterInput.swift */; };
 		ECB62F4720209A4A009C85FE /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F4620209A4A009C85FE /* RegisterRouter.swift */; };
 		ECB62F4920209BDB009C85FE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F4820209BDB009C85FE /* RegisterViewController.swift */; };
-		ECB62F4B20209CAD009C85FE /* RegisterInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F4A20209CAD009C85FE /* RegisterInterector.swift */; };
+		ECB62F4B20209CAD009C85FE /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F4A20209CAD009C85FE /* RegisterInteractor.swift */; };
 		ECB62F4D20209CDD009C85FE /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F4C20209CDD009C85FE /* RegisterPresenter.swift */; };
 		ECB62F5120209D1C009C85FE /* RegisterPresenterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F5020209D1C009C85FE /* RegisterPresenterFactory.swift */; };
-		ECB62F5320209EA4009C85FE /* RegisterInterectorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F5220209EA4009C85FE /* RegisterInterectorFactory.swift */; };
+		ECB62F5320209EA4009C85FE /* RegisterInteractorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F5220209EA4009C85FE /* RegisterInteractorFactory.swift */; };
 		ECB62F5520209EDD009C85FE /* RegisterRouterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F5420209EDD009C85FE /* RegisterRouterFactory.swift */; };
 		ECB62F582020A502009C85FE /* ValidateString.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F572020A502009C85FE /* ValidateString.swift */; };
 		ECB62F5A2020AED5009C85FE /* HomeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F592020AED5009C85FE /* HomeNavigationController.swift */; };
@@ -73,11 +73,22 @@
 		ECB62F8D20213B8A009C85FE /* UserListDataManagerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F8C20213B8A009C85FE /* UserListDataManagerFactory.swift */; };
 		ECB62F8F20213BF9009C85FE /* UserListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F8E20213BF9009C85FE /* UserListPresenter.swift */; };
 		ECB62F9120213C33009C85FE /* UserListPresenterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F9020213C33009C85FE /* UserListPresenterFactory.swift */; };
-		ECB62F9320213CF5009C85FE /* UserListInterector.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F9220213CF5009C85FE /* UserListInterector.swift */; };
-		ECB62F9520213E10009C85FE /* UserListInterectorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F9420213E10009C85FE /* UserListInterectorFactory.swift */; };
+		ECB62F9320213CF5009C85FE /* UserListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F9220213CF5009C85FE /* UserListInteractor.swift */; };
+		ECB62F9520213E10009C85FE /* UserListInteractorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F9420213E10009C85FE /* UserListInteractorFactory.swift */; };
 		ECB62F9820214165009C85FE /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F9620214165009C85FE /* UserTableViewCell.swift */; };
 		ECB62F9920214165009C85FE /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB62F9720214165009C85FE /* UserTableViewCell.xib */; };
 		ECB62F9D2021497A009C85FE /* UIViewController+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62F9C2021497A009C85FE /* UIViewController+Keyboard.swift */; };
+		ECB62FA820217841009C85FE /* DrawingPersistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62FA620217841009C85FE /* DrawingPersistable.swift */; };
+		ECB62FAC20217938009C85FE /* DrawingDataManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62FAB20217938009C85FE /* DrawingDataManagerType.swift */; };
+		ECB62FAE20217960009C85FE /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62FAD20217960009C85FE /* Drawing.swift */; };
+		ECB62FB020217A5E009C85FE /* DrawingDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62FAF20217A5E009C85FE /* DrawingDataManager.swift */; };
+		ECB62FB320218075009C85FE /* DataSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62FB220218075009C85FE /* DataSession.swift */; };
+		ECB62FB820226B2A009C85FE /* UIImage+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62FB720226B2A009C85FE /* UIImage+Data.swift */; };
+		ECB62FBC20226EDC009C85FE /* DrawPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62FBB20226EDC009C85FE /* DrawPresenter.swift */; };
+		ECB62FBE20226F25009C85FE /* DrawInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62FBD20226F25009C85FE /* DrawInteractor.swift */; };
+		ECB62FC020227127009C85FE /* DrawInteractorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62FBF20227127009C85FE /* DrawInteractorFactory.swift */; };
+		ECB62FC220227135009C85FE /* DrawPresenterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62FC120227135009C85FE /* DrawPresenterFactory.swift */; };
+		ECB62FC4202271C7009C85FE /* DrawingDataManagerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB62FC3202271C7009C85FE /* DrawingDataManagerFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,8 +135,8 @@
 		ECB62F2F20208557009C85FE /* LoginRouterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouterFactory.swift; sourceTree = "<group>"; };
 		ECB62F3120208607009C85FE /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		ECB62F33202086AB009C85FE /* LoginPresenterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterFactory.swift; sourceTree = "<group>"; };
-		ECB62F3520208775009C85FE /* LoginInterector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInterector.swift; sourceTree = "<group>"; };
-		ECB62F3720208918009C85FE /* LoginInterectorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInterectorFactory.swift; sourceTree = "<group>"; };
+		ECB62F3520208775009C85FE /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		ECB62F3720208918009C85FE /* LoginInteractorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorFactory.swift; sourceTree = "<group>"; };
 		ECB62F3920208C31009C85FE /* LoginDataManagerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataManagerFactory.swift; sourceTree = "<group>"; };
 		ECB62F3C202094C6009C85FE /* AlertError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertError.swift; sourceTree = "<group>"; };
 		ECB62F3E202097A2009C85FE /* RegisterDataManagerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterDataManagerType.swift; sourceTree = "<group>"; };
@@ -134,10 +145,10 @@
 		ECB62F4420209A3D009C85FE /* RegisterRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouterInput.swift; sourceTree = "<group>"; };
 		ECB62F4620209A4A009C85FE /* RegisterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
 		ECB62F4820209BDB009C85FE /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		ECB62F4A20209CAD009C85FE /* RegisterInterector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInterector.swift; sourceTree = "<group>"; };
+		ECB62F4A20209CAD009C85FE /* RegisterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInteractor.swift; sourceTree = "<group>"; };
 		ECB62F4C20209CDD009C85FE /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
 		ECB62F5020209D1C009C85FE /* RegisterPresenterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenterFactory.swift; sourceTree = "<group>"; };
-		ECB62F5220209EA4009C85FE /* RegisterInterectorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInterectorFactory.swift; sourceTree = "<group>"; };
+		ECB62F5220209EA4009C85FE /* RegisterInteractorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInteractorFactory.swift; sourceTree = "<group>"; };
 		ECB62F5420209EDD009C85FE /* RegisterRouterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouterFactory.swift; sourceTree = "<group>"; };
 		ECB62F572020A502009C85FE /* ValidateString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateString.swift; sourceTree = "<group>"; };
 		ECB62F592020AED5009C85FE /* HomeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationController.swift; sourceTree = "<group>"; };
@@ -161,11 +172,22 @@
 		ECB62F8C20213B8A009C85FE /* UserListDataManagerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListDataManagerFactory.swift; sourceTree = "<group>"; };
 		ECB62F8E20213BF9009C85FE /* UserListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListPresenter.swift; sourceTree = "<group>"; };
 		ECB62F9020213C33009C85FE /* UserListPresenterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListPresenterFactory.swift; sourceTree = "<group>"; };
-		ECB62F9220213CF5009C85FE /* UserListInterector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListInterector.swift; sourceTree = "<group>"; };
-		ECB62F9420213E10009C85FE /* UserListInterectorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListInterectorFactory.swift; sourceTree = "<group>"; };
+		ECB62F9220213CF5009C85FE /* UserListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListInteractor.swift; sourceTree = "<group>"; };
+		ECB62F9420213E10009C85FE /* UserListInteractorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListInteractorFactory.swift; sourceTree = "<group>"; };
 		ECB62F9620214165009C85FE /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		ECB62F9720214165009C85FE /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
 		ECB62F9C2021497A009C85FE /* UIViewController+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Keyboard.swift"; sourceTree = "<group>"; };
+		ECB62FA620217841009C85FE /* DrawingPersistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingPersistable.swift; sourceTree = "<group>"; };
+		ECB62FAB20217938009C85FE /* DrawingDataManagerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingDataManagerType.swift; sourceTree = "<group>"; };
+		ECB62FAD20217960009C85FE /* Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
+		ECB62FAF20217A5E009C85FE /* DrawingDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingDataManager.swift; sourceTree = "<group>"; };
+		ECB62FB220218075009C85FE /* DataSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSession.swift; sourceTree = "<group>"; };
+		ECB62FB720226B2A009C85FE /* UIImage+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Data.swift"; sourceTree = "<group>"; };
+		ECB62FBB20226EDC009C85FE /* DrawPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPresenter.swift; sourceTree = "<group>"; };
+		ECB62FBD20226F25009C85FE /* DrawInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawInteractor.swift; sourceTree = "<group>"; };
+		ECB62FBF20227127009C85FE /* DrawInteractorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawInteractorFactory.swift; sourceTree = "<group>"; };
+		ECB62FC120227135009C85FE /* DrawPresenterFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPresenterFactory.swift; sourceTree = "<group>"; };
+		ECB62FC3202271C7009C85FE /* DrawingDataManagerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingDataManagerFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +256,7 @@
 		ECB62EB220202BB8009C85FE /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				ECB62FB12021805F009C85FE /* Session */,
 				ECB62F682020BADF009C85FE /* Identifiable */,
 				ECB62F632020BA70009C85FE /* DataSource */,
 				ECB62F5B2020B06A009C85FE /* Injectable */,
@@ -249,6 +272,7 @@
 			children = (
 				ECB62F1120205329009C85FE /* CoreData */,
 				ECB62F1C2020687B009C85FE /* User.swift */,
+				ECB62FAD20217960009C85FE /* Drawing.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -267,10 +291,10 @@
 		ECB62EBD20203480009C85FE /* Authenticate */ = {
 			isa = PBXGroup;
 			children = (
-				ECB62F0420204ED9009C85FE /* DataBase */,
+				ECB62F0420204ED9009C85FE /* DataManager */,
 				ECB62F2A20207F54009C85FE /* Wireframe */,
 				ECB62F2820207EFA009C85FE /* Presenter */,
-				ECB62F2920207F33009C85FE /* Interector */,
+				ECB62F2920207F33009C85FE /* Interactor */,
 				ECB62EC92020389C009C85FE /* Controllers */,
 				ECB62ECF20203A3D009C85FE /* Factories */,
 			);
@@ -291,8 +315,11 @@
 		ECB62EBF20203490009C85FE /* Draw */ = {
 			isa = PBXGroup;
 			children = (
-				ECB62F7E20213467009C85FE /* Factories */,
 				ECB62F7120212E71009C85FE /* Controllers */,
+				ECB62FBA20226EBD009C85FE /* Presenter */,
+				ECB62FB920226E97009C85FE /* Interactor */,
+				ECB62FAA2021790D009C85FE /* DataManager */,
+				ECB62F7E20213467009C85FE /* Factories */,
 			);
 			path = Draw;
 			sourceTree = "<group>";
@@ -302,7 +329,7 @@
 			children = (
 				ECB62F8720213904009C85FE /* DataBase */,
 				ECB62F86202138F4009C85FE /* Presenter */,
-				ECB62F85202138DB009C85FE /* Interector */,
+				ECB62F85202138DB009C85FE /* Interactor */,
 				ECB62F7420212EC5009C85FE /* Controllers */,
 				ECB62F8120213530009C85FE /* Factories */,
 			);
@@ -355,11 +382,11 @@
 				ECB62F33202086AB009C85FE /* LoginPresenterFactory.swift */,
 				ECB62F2F20208557009C85FE /* LoginRouterFactory.swift */,
 				ECB62ED020203A5B009C85FE /* LoginViewControllerFactory.swift */,
-				ECB62F3720208918009C85FE /* LoginInterectorFactory.swift */,
+				ECB62F3720208918009C85FE /* LoginInteractorFactory.swift */,
 				ECB62F3920208C31009C85FE /* LoginDataManagerFactory.swift */,
 				ECB62F4220209980009C85FE /* RegisterDataManagerFactory.swift */,
 				ECB62F5020209D1C009C85FE /* RegisterPresenterFactory.swift */,
-				ECB62F5220209EA4009C85FE /* RegisterInterectorFactory.swift */,
+				ECB62F5220209EA4009C85FE /* RegisterInteractorFactory.swift */,
 				ECB62F5420209EDD009C85FE /* RegisterRouterFactory.swift */,
 			);
 			path = Factories;
@@ -401,7 +428,7 @@
 			path = Factories;
 			sourceTree = "<group>";
 		};
-		ECB62F0420204ED9009C85FE /* DataBase */ = {
+		ECB62F0420204ED9009C85FE /* DataManager */ = {
 			isa = PBXGroup;
 			children = (
 				ECB62F092020506E009C85FE /* LoginDataManagerType.swift */,
@@ -409,12 +436,13 @@
 				ECB62F3E202097A2009C85FE /* RegisterDataManagerType.swift */,
 				ECB62F40202097CB009C85FE /* RegisterDataManager.swift */,
 			);
-			path = DataBase;
+			path = DataManager;
 			sourceTree = "<group>";
 		};
 		ECB62F1120205329009C85FE /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				ECB62FA620217841009C85FE /* DrawingPersistable.swift */,
 				ECB62F1A2020671A009C85FE /* UserPersistable.swift */,
 			);
 			path = CoreData;
@@ -425,6 +453,7 @@
 			children = (
 				ECB62F2420206A0C009C85FE /* String+Constants.swift */,
 				ECB62F9C2021497A009C85FE /* UIViewController+Keyboard.swift */,
+				ECB62FB720226B2A009C85FE /* UIImage+Data.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -438,13 +467,13 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		ECB62F2920207F33009C85FE /* Interector */ = {
+		ECB62F2920207F33009C85FE /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				ECB62F3520208775009C85FE /* LoginInterector.swift */,
-				ECB62F4A20209CAD009C85FE /* RegisterInterector.swift */,
+				ECB62F3520208775009C85FE /* LoginInteractor.swift */,
+				ECB62F4A20209CAD009C85FE /* RegisterInteractor.swift */,
 			);
-			path = Interector;
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		ECB62F2A20207F54009C85FE /* Wireframe */ = {
@@ -547,6 +576,9 @@
 			isa = PBXGroup;
 			children = (
 				ECB62F7F2021348F009C85FE /* DrawViewControllerFactory.swift */,
+				ECB62FBF20227127009C85FE /* DrawInteractorFactory.swift */,
+				ECB62FC120227135009C85FE /* DrawPresenterFactory.swift */,
+				ECB62FC3202271C7009C85FE /* DrawingDataManagerFactory.swift */,
 			);
 			path = Factories;
 			sourceTree = "<group>";
@@ -557,17 +589,17 @@
 				ECB62F8220213543009C85FE /* UserListViewControllerFactory.swift */,
 				ECB62F8C20213B8A009C85FE /* UserListDataManagerFactory.swift */,
 				ECB62F9020213C33009C85FE /* UserListPresenterFactory.swift */,
-				ECB62F9420213E10009C85FE /* UserListInterectorFactory.swift */,
+				ECB62F9420213E10009C85FE /* UserListInteractorFactory.swift */,
 			);
 			path = Factories;
 			sourceTree = "<group>";
 		};
-		ECB62F85202138DB009C85FE /* Interector */ = {
+		ECB62F85202138DB009C85FE /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				ECB62F9220213CF5009C85FE /* UserListInterector.swift */,
+				ECB62F9220213CF5009C85FE /* UserListInteractor.swift */,
 			);
-			path = Interector;
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		ECB62F86202138F4009C85FE /* Presenter */ = {
@@ -585,6 +617,39 @@
 				ECB62F8820213918009C85FE /* UserListDataManager.swift */,
 			);
 			path = DataBase;
+			sourceTree = "<group>";
+		};
+		ECB62FAA2021790D009C85FE /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				ECB62FAB20217938009C85FE /* DrawingDataManagerType.swift */,
+				ECB62FAF20217A5E009C85FE /* DrawingDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		ECB62FB12021805F009C85FE /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				ECB62FB220218075009C85FE /* DataSession.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		ECB62FB920226E97009C85FE /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				ECB62FBD20226F25009C85FE /* DrawInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		ECB62FBA20226EBD009C85FE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				ECB62FBB20226EDC009C85FE /* DrawPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -704,6 +769,7 @@
 				ECB62F0320204D4B009C85FE /* UsuariosDataManagerFactory.swift in Sources */,
 				ECB62F2220206900009C85FE /* ErrorType.swift in Sources */,
 				ECB62F2E20208148009C85FE /* LoginRouterInput.swift in Sources */,
+				ECB62FAE20217960009C85FE /* Drawing.swift in Sources */,
 				ECB62F6F20212D4A009C85FE /* HomeRouterInput.swift in Sources */,
 				ECB62F3220208607009C85FE /* LoginPresenter.swift in Sources */,
 				ECB62F0A2020506E009C85FE /* LoginDataManagerType.swift in Sources */,
@@ -712,48 +778,58 @@
 				ECB62F8D20213B8A009C85FE /* UserListDataManagerFactory.swift in Sources */,
 				ECB62F4520209A3D009C85FE /* RegisterRouterInput.swift in Sources */,
 				ECB62E9820202198009C85FE /* Usuarios.xcdatamodeld in Sources */,
-				ECB62F3620208775009C85FE /* LoginInterector.swift in Sources */,
+				ECB62F3620208775009C85FE /* LoginInteractor.swift in Sources */,
 				ECB62F6D20212D2F009C85FE /* HomeRouter.swift in Sources */,
 				ECB62E9020202198009C85FE /* AppDelegate.swift in Sources */,
 				ECB62F4920209BDB009C85FE /* RegisterViewController.swift in Sources */,
-				ECB62F9320213CF5009C85FE /* UserListInterector.swift in Sources */,
+				ECB62F9320213CF5009C85FE /* UserListInteractor.swift in Sources */,
 				ECB62F6A2020BAEA009C85FE /* Identifiable.swift in Sources */,
 				ECB62F3D202094C6009C85FE /* AlertError.swift in Sources */,
 				ECB62F3F202097A2009C85FE /* RegisterDataManagerType.swift in Sources */,
 				ECB62F802021348F009C85FE /* DrawViewControllerFactory.swift in Sources */,
+				ECB62FAC20217938009C85FE /* DrawingDataManagerType.swift in Sources */,
 				ECB62F3A20208C31009C85FE /* LoginDataManagerFactory.swift in Sources */,
 				ECB62F5D2020B07D009C85FE /* Injectable.swift in Sources */,
 				ECB62F2720206BF2009C85FE /* ResultData.swift in Sources */,
 				ECB62F7B2021331D009C85FE /* HomeRouterFactory.swift in Sources */,
 				ECB62F0C2020508F009C85FE /* LoginDataManager.swift in Sources */,
+				ECB62FB320218075009C85FE /* DataSession.swift in Sources */,
 				ECB62F8B2021392B009C85FE /* UserListDataManagerType.swift in Sources */,
 				ECB62F1D2020687B009C85FE /* User.swift in Sources */,
 				ECB62F9120213C33009C85FE /* UserListPresenterFactory.swift in Sources */,
-				ECB62F5320209EA4009C85FE /* RegisterInterectorFactory.swift in Sources */,
+				ECB62FB820226B2A009C85FE /* UIImage+Data.swift in Sources */,
+				ECB62F5320209EA4009C85FE /* RegisterInteractorFactory.swift in Sources */,
 				ECB62ECC202038BF009C85FE /* LoginViewController.swift in Sources */,
 				ECB62F2520206A0C009C85FE /* String+Constants.swift in Sources */,
 				ECB62F0020204C8D009C85FE /* UsuariosDataManager.swift in Sources */,
 				ECB62F5120209D1C009C85FE /* RegisterPresenterFactory.swift in Sources */,
 				ECB62F672020BAA1009C85FE /* ViewCellHandler.swift in Sources */,
+				ECB62FBC20226EDC009C85FE /* DrawPresenter.swift in Sources */,
 				ECB62F4720209A4A009C85FE /* RegisterRouter.swift in Sources */,
-				ECB62F4B20209CAD009C85FE /* RegisterInterector.swift in Sources */,
+				ECB62FA820217841009C85FE /* DrawingPersistable.swift in Sources */,
+				ECB62F4B20209CAD009C85FE /* RegisterInteractor.swift in Sources */,
 				ECB62F7920213053009C85FE /* ItemHomeType.swift in Sources */,
-				ECB62F3820208918009C85FE /* LoginInterectorFactory.swift in Sources */,
+				ECB62F3820208918009C85FE /* LoginInteractorFactory.swift in Sources */,
 				ECB62F34202086AB009C85FE /* LoginPresenterFactory.swift in Sources */,
 				ECB62F41202097CB009C85FE /* RegisterDataManager.swift in Sources */,
 				ECB62F612020B6FC009C85FE /* HomeTableViewCell.swift in Sources */,
 				ECB62F652020BA7D009C85FE /* TableDataSource.swift in Sources */,
 				ECB62F2C20208021009C85FE /* LoginRouter.swift in Sources */,
 				ECB62F7D2021336E009C85FE /* HomeNavigationControllerFactory.swift in Sources */,
-				ECB62F9520213E10009C85FE /* UserListInterectorFactory.swift in Sources */,
+				ECB62F9520213E10009C85FE /* UserListInteractorFactory.swift in Sources */,
 				ECB62F5A2020AED5009C85FE /* HomeNavigationController.swift in Sources */,
 				ECB62ED120203A5B009C85FE /* LoginViewControllerFactory.swift in Sources */,
+				ECB62FC220227135009C85FE /* DrawPresenterFactory.swift in Sources */,
 				ECB62F8320213543009C85FE /* UserListViewControllerFactory.swift in Sources */,
 				ECB62F3020208557009C85FE /* LoginRouterFactory.swift in Sources */,
 				ECB62F5520209EDD009C85FE /* RegisterRouterFactory.swift in Sources */,
 				ECB62F582020A502009C85FE /* ValidateString.swift in Sources */,
 				ECB62F4D20209CDD009C85FE /* RegisterPresenter.swift in Sources */,
 				ECB62EC82020379B009C85FE /* SessionRouterInput.swift in Sources */,
+				ECB62FB020217A5E009C85FE /* DrawingDataManager.swift in Sources */,
+				ECB62FC4202271C7009C85FE /* DrawingDataManagerFactory.swift in Sources */,
+				ECB62FBE20226F25009C85FE /* DrawInteractor.swift in Sources */,
+				ECB62FC020227127009C85FE /* DrawInteractorFactory.swift in Sources */,
 				ECB62F1B2020671A009C85FE /* UserPersistable.swift in Sources */,
 				ECB62F4320209980009C85FE /* RegisterDataManagerFactory.swift in Sources */,
 				ECB62ECE202038CB009C85FE /* HomeViewController.swift in Sources */,

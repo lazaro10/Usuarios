@@ -7,7 +7,7 @@
 //
 
 struct LoginPresenterFactory {
-    static func make(onSuccess: @escaping (User) -> Void, onError: @escaping (ErrorType) -> Void) -> LoginPresenter {
+    static func make(onSuccess: @escaping () -> Void, onError: @escaping (ErrorType) -> Void) -> LoginPresenter {
         return LoginPresenter(onSuccess: onSuccess, onError: onError)
     }
 }
